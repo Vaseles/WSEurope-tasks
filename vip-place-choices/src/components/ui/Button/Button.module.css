@@ -1,0 +1,15 @@
+.button {
+   background-color: rgb(254,254,254,.1);
+   border-radius: 20px;
+   padding: 10px 20px;
+   color: white;
+   font-size: 18px;
+   cursor: pointer;
+   border:none;
+   transition: all .3s linear;
+   font-weight: bold;
+}
+.button:hover {
+   background-color: coral;
+   color: #202020;
+}

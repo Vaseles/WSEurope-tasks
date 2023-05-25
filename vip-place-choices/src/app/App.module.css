@@ -1,0 +1,64 @@
+.page {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   padding: 1vh 3vw;
+}
+.page__header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   background-color: rgb(254,254,254,.05);
+   width: 100%;
+   padding: 10px ;
+   border-radius: 10px;
+}
+.page__elements {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   margin: 5% 0;
+}
+.page__element {
+   width: 120px;
+   padding: 4px;
+   height: 50px;
+   border: 2px solid rgb(254,254,254,.5);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.element {
+   background-color: coral;
+   color: #202020;
+   border-radius: 10px;
+   padding: 4px 8px;
+   cursor: grab;
+}
+.page__upload {
+   width: 100%;
+   background-color: rgb(254,254,254,.1);
+
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 10px;
+   position: relative;
+}
+.page__upload p {
+   position: absolute;
+   font-size: 30px;
+   z-index: -10;
+}
+.page__upload input {
+   width: 100%;
+   height: 200px;
+   opacity: 0;
+   height: 100%;  
+}

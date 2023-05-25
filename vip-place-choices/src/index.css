@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #202020;
+  color: lightgray;
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: coral;
+  color: #202020;
+}
+
+.button {
+  background-color: rgb(254,254,254,.1);
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border:none;
+  transition: all .3s linear;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: coral;
+  color: #202020;
+}
+a {
+  color: white;
+}
+
+.error {
+  color: coral;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  position: fixed;
+  top: 5%;
+  right: 35%;
+  left: 35%;
+  z-index: 10;
+  font-size: 26px;
+  transition: all .3s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
